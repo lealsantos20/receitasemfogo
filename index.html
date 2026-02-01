@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receitas Sem Fogo – Especial de Páscoa 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cream: '#FFF9F6',
+              espresso: '#3A2C2C',
+              rose: '#C75D5D',
+              dulce: '#D6846D',
+              pistachio: '#A8B78A',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Lora', 'serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      @keyframes softFloat {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      .animate-soft-float {
+        animation: softFloat 6s ease-in-out infinite;
+      }
+      .cream-gradient {
+        background: linear-gradient(135deg, #FFF9F6 0%, #FDF1E8 100%);
+      }
+      .scroll-hide::-webkit-scrollbar {
+        display: none;
+      }
+      .scroll-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "react": "https://esm.sh/react@^19.2.4",
+        "react-intersection-observer": "https://esm.sh/react-intersection-observer@^10.0.2"
+      }
+    }
+    </script>
+</head>
+<body class="bg-cream font-sans text-espresso scroll-smooth">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
