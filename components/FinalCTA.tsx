@@ -21,28 +21,53 @@ const FinalCTA: React.FC = () => {
                 Sua chance de começar hoje mesmo, sem complicações. Teste nossas receitas e veja a mágica acontecer.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-                <Button variant="primary" size="lg">Quero Minhas Receitas Agora!</Button>
-                <Button variant="outline" size="lg">Falar no WhatsApp</Button>
+                {/* CTA PRINCIPAL — RECEITAS */}
+                <a
+                  href="https://zap.tecnotreu.com.br/receitas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Receber receitas sem fogo em PDF gratuito no WhatsApp"
+                >
+                  <Button variant="primary" size="lg">
+                    Quero Minhas Receitas Agora!
+                  </Button>
+                </a>
+
+                {/* CTA SECUNDÁRIO — WHATSAPP */}
+                <a
+                  href="https://zap.tecnotreu.com.br/receitas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Falar no WhatsApp sobre as receitas sem fogo"
+                >
+                  <Button variant="outline" size="lg">
+                    Falar no WhatsApp
+                  </Button>
+                </a>
+
               </div>
+
               <p className="mt-8 text-xs font-bold uppercase tracking-widest text-dulce">
                 Oferta por tempo limitado para a Páscoa 2026
               </p>
             </FadeInOnScroll>
           </div>
 
+          {/* IMAGEM / MOCKUP */}
           <div className="flex-1 w-full max-w-sm lg:max-w-none">
             <FadeInOnScroll delay={200} className="relative">
               <div className="absolute inset-0 bg-rose/10 blur-3xl rounded-full transform scale-75" />
               <div className="relative group perspective-1000">
                 <div className="bg-espresso p-2 rounded-[2.5rem] shadow-2xl transform rotate-[-2deg] transition-transform duration-500 group-hover:rotate-0">
                   <div className="bg-white rounded-[2rem] overflow-hidden border-4 border-espresso">
-                    <img 
-                      src="https://images.unsplash.com/photo-1541416418826-62181297576a?auto=format&fit=crop&q=80&w=400" 
-                      alt="Interface Mockup Páscoa" 
+                    <img
+                      src="https://eidcoorpgkmvsrcfzewc.supabase.co/storage/v1/object/public/fotosdez/modelo1/pascoa.png"
+                      alt="Receitas sem fogo para Páscoa"
                       className="w-full h-auto"
                     />
                     <div className="p-4 bg-cream text-center">
-                      <p className="font-serif text-rose font-bold italic">Receita: Trufas de Chocolate (Sem Fogo)</p>
+                      <p className="font-serif text-rose font-bold italic">Receita: Trufas de Chocolate (Sem Fogo)
+                      </p>
                     </div>
                   </div>
                 </div>
