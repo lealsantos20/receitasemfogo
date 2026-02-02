@@ -41,8 +41,15 @@ const Navbar: React.FC = () => {
           ))}
         </div>
 
+        {/* DESKTOP CTA */}
         <div className="hidden lg:block">
-          <Button href="#final-cta" variant="primary" size="sm">
+          <Button
+            href="https://zap.tecnotreu.com.br/receitas"
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="primary"
+            size="sm"
+          >
             Pegue Sua Receita Agora!
           </Button>
         </div>
@@ -75,8 +82,16 @@ const Navbar: React.FC = () => {
               {link.name}
             </a>
           ))}
+          {/* MOBILE CTA */}
           <div className="pt-4">
-            <Button href="#final-cta" variant="primary" size="md">
+            <Button
+              href="https://zap.tecnotreu.com.br/receitas"
+              target="_blank"
+              rel="noopener noreferrer"
+              variant="primary"
+              size="md"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Pegue Sua Receita Agora!
             </Button>
           </div>
