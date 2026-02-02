@@ -31,7 +31,14 @@ const HeroSection: React.FC = () => {
             </FadeInOnScroll>
 
             <FadeInOnScroll delay={400} className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-              <Button href="#final-cta" variant="primary" size="lg">
+              {/* CTA PRINCIPAL — WHATSAPP / FUNIL RECEITAS */}
+              <Button
+                href="https://zap.tecnotreu.com.br/receitas"
+                target="_blank"
+                rel="noopener noreferrer"
+                variant="primary"
+                size="lg"
+              >
                 Quero Receber as Receitas Agora!
               </Button>
               <Button href="#features" variant="secondary" size="lg">
