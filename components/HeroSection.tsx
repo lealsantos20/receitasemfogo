@@ -58,7 +58,7 @@ const HeroSection: React.FC = () => {
               <div className="absolute inset-0 bg-dulce/10 rounded-2xl rotate-3 transform scale-105 blur-sm" />
               <div className="relative bg-white p-4 rounded-3xl shadow-2xl animate-soft-float overflow-hidden group">
                 <img 
-                  src="https://images.unsplash.com/photo-1542849964-55091be3e34b?auto=format&fit=crop&q=80&w=800" 
+                  src="https://eidcoorpgkmvsrcfzewc.supabase.co/storage/v1/object/public/fotosdez/modelo1/pascoa.png" 
                   alt="Doces de Páscoa e chocolates artesanais" 
                   className="w-full h-auto rounded-2xl transform transition-transform duration-700 group-hover:scale-110"
                 />
