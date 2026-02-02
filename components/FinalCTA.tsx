@@ -61,7 +61,7 @@ const FinalCTA: React.FC = () => {
                 <div className="bg-espresso p-2 rounded-[2.5rem] shadow-2xl transform rotate-[-2deg] transition-transform duration-500 group-hover:rotate-0">
                   <div className="bg-white rounded-[2rem] overflow-hidden border-4 border-espresso">
                     <img
-                      src="https://eidcoorpgkmvsrcfzewc.supabase.co/storage/v1/object/public/fotosdez/modelo1/pascoa.png"
+                      src="https://eidcoorpgkmvsrcfzewc.supabase.co/storage/v1/object/public/fotosdez/modelo1/trufa.png"
                       alt="Receitas sem fogo para Páscoa"
                       className="w-full h-auto"
                     />
